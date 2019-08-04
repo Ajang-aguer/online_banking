@@ -1,6 +1,6 @@
 # Online Banking System
 
-This is a Online Banking Concept created using Django Framework.
+This is a Online Banking basic app created using Django Framework.
 
 ## Features
 

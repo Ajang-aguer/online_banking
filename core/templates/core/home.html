@@ -1,0 +1,20 @@
+{% extends 'core/base.html' %}
+
+{% block title %} {{ block.super }}{% endblock title %}
+
+{% block content %}
+<div class="container" style="padding-top: 50px;">
+<div class="jumbotron text-center">
+      <div class="container">
+        <h1 class="jumbotron-heading">Aduaar Bank</h1>
+        <hr>
+        <p class="lead text-muted">Bank with Aduaar Bank, and enjoy the freedom and peace of mind of your money.</p>
+        <p>
+          <a class="btn btn-md" href="{% url 'accounts:login' %}" role="button" style="background-color: #ffb900; color: #000" >Sign In</a>
+          <a class="btn btn-primary btn-md" href="{% url 'accounts:register' %}" role="button">Create an Account</a>
+        </p>
+      </div>
+</div>
+</div>
+
+{% endblock content %}
